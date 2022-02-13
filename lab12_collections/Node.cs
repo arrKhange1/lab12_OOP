@@ -5,15 +5,20 @@ using lab10;
 
 namespace lab12_collections
 {
-    class SingleNode<T>
+    class QueueNode<T>
     {
-        public SingleNode(T data)
+        public QueueNode(T data, QueueNode<T> next)
+        {
+            this.data = data;
+            this.next = next;
+        }
+        public QueueNode(T data)
         {
             this.data = data;
             next = null;
         }
         public T data;
-        public SingleNode<T> next;
+        public QueueNode<T> next;
     }
 
     class DoubleNode<T>

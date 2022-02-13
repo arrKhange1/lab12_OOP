@@ -24,3 +24,17 @@ C:\Users\Артур\source\repos\lab12\lab10\obj\Debug\netcoreapp3.1\lab10.cspro
 C:\Users\Артур\source\repos\lab12\lab10\obj\Debug\netcoreapp3.1\lab10.dll
 C:\Users\Артур\source\repos\lab12\lab10\obj\Debug\netcoreapp3.1\lab10.pdb
 C:\Users\Артур\source\repos\lab12\lab10\obj\Debug\netcoreapp3.1\lab10.genruntimeconfig.cache
+C:\Users\User\source\repos\lab12\lab10\bin\Debug\netcoreapp3.1\lab10.exe
+C:\Users\User\source\repos\lab12\lab10\bin\Debug\netcoreapp3.1\lab10.deps.json
+C:\Users\User\source\repos\lab12\lab10\bin\Debug\netcoreapp3.1\lab10.runtimeconfig.json
+C:\Users\User\source\repos\lab12\lab10\bin\Debug\netcoreapp3.1\lab10.runtimeconfig.dev.json
+C:\Users\User\source\repos\lab12\lab10\bin\Debug\netcoreapp3.1\lab10.dll
+C:\Users\User\source\repos\lab12\lab10\bin\Debug\netcoreapp3.1\lab10.pdb
+C:\Users\User\source\repos\lab12\lab10\obj\Debug\netcoreapp3.1\lab10.csprojAssemblyReference.cache
+C:\Users\User\source\repos\lab12\lab10\obj\Debug\netcoreapp3.1\lab10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\lab12\lab10\obj\Debug\netcoreapp3.1\lab10.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\lab12\lab10\obj\Debug\netcoreapp3.1\lab10.AssemblyInfo.cs
+C:\Users\User\source\repos\lab12\lab10\obj\Debug\netcoreapp3.1\lab10.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\lab12\lab10\obj\Debug\netcoreapp3.1\lab10.dll
+C:\Users\User\source\repos\lab12\lab10\obj\Debug\netcoreapp3.1\lab10.pdb
+C:\Users\User\source\repos\lab12\lab10\obj\Debug\netcoreapp3.1\lab10.genruntimeconfig.cache

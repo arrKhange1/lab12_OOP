@@ -1,14 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Text;
 
 namespace lab12_collections
 {
-    class ListBasedQueue<T>: ICloneable where T: IEquatable<T>
+    class ListBasedQueue<T>: ICloneable, IEnumerable<T> where T: IEquatable<T>
     {
         public QueueNode<T> head;
         private int _count;
         public int Count { get { return _count; } set { _count = value; } }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return new QueueEnumerator<T>(head);
+        }
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+        
         public ListBasedQueue()
         {
             head = null;

@@ -5,7 +5,7 @@ using lab10;
 
 namespace lab12_collections
 {
-    class QueueNode<T>
+    public class QueueNode<T>
     {
         public QueueNode(T data, QueueNode<T> next)
         {

@@ -57,6 +57,21 @@ namespace lab12_collections
             q1.Print();
             Console.WriteLine("q4 (memberwise copy of q1)\n");
             q4.Print();
+
+            // ----------
+            System.Console.WriteLine("------------ foreach --------------------------\n");
+            
+            var qForEach = new ListBasedQueue<Person>();
+
+            qForEach.Push(new Worker("Anton"));
+
+            qForEach.Print();
+
+            foreach(var item in qForEach)
+            {
+                Console.WriteLine(item.ToString());
+            }
+            
         }
         static void Main(string[] args)
         {

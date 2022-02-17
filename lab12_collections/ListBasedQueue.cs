@@ -5,11 +5,11 @@ using System.Text;
 
 namespace lab12_collections
 {
-    class ListBasedQueue<T>: ICloneable, IEnumerable<T> where T: IEquatable<T>
+    public class ListBasedQueue<T>: ICloneable, IEnumerable<T> where T: IEquatable<T>
     {
         public QueueNode<T> head;
         private int _count;
-        public int Count { get { return _count; } set { _count = value; } }
+        public int Count { get { return _count; }  }
 
         public IEnumerator<T> GetEnumerator()
         {

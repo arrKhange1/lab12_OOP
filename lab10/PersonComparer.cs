@@ -13,7 +13,7 @@ namespace lab10
             else if (p1.FirstName.CompareTo(p2.FirstName) < 0)
                 return -1;
             else
-                return 1;
+                return 0;
         }
     }
 }

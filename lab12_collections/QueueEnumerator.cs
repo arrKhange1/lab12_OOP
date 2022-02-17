@@ -7,7 +7,7 @@ namespace lab12_collections
 {
     public class QueueEnumerator<T> : IEnumerator<T>, IEnumerator, IDisposable
     {
-        QueueNode<T> head = default(QueueNode<T>), fixedHead;
+        public QueueNode<T> head = default(QueueNode<T>), fixedHead;
         int cnt = -1;
         public QueueEnumerator(QueueNode<T> head)
         {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VSCodeRepos\\lab12_OOP\\lab12_collections\\lab12_collections.csproj": {}
+    "C:\\Users\\Артур\\source\\repos\\lab12\\lab12_collections\\lab12_collections.csproj": {}
   },
   "projects": {
-    "C:\\VSCodeRepos\\lab12_OOP\\lab10\\lab10.csproj": {
+    "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\lab10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VSCodeRepos\\lab12_OOP\\lab10\\lab10.csproj",
+        "projectUniqueName": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\lab10.csproj",
         "projectName": "lab10",
-        "projectPath": "C:\\VSCodeRepos\\lab12_OOP\\lab10\\lab10.csproj",
+        "projectPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\lab10.csproj",
         "packagesPath": "C:\\Users\\Артур\\.nuget\\packages\\",
-        "outputPath": "C:\\VSCodeRepos\\lab12_OOP\\lab10\\obj\\",
+        "outputPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Артур\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\VSCodeRepos\\lab12_OOP\\lab11\\lab11.csproj": {
+    "C:\\Users\\Артур\\source\\repos\\lab12\\lab11\\lab11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VSCodeRepos\\lab12_OOP\\lab11\\lab11.csproj",
+        "projectUniqueName": "C:\\Users\\Артур\\source\\repos\\lab12\\lab11\\lab11.csproj",
         "projectName": "lab11",
-        "projectPath": "C:\\VSCodeRepos\\lab12_OOP\\lab11\\lab11.csproj",
+        "projectPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab11\\lab11.csproj",
         "packagesPath": "C:\\Users\\Артур\\.nuget\\packages\\",
-        "outputPath": "C:\\VSCodeRepos\\lab12_OOP\\lab11\\obj\\",
+        "outputPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Артур\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,14 +108,14 @@
         }
       }
     },
-    "C:\\VSCodeRepos\\lab12_OOP\\lab12_collections\\lab12_collections.csproj": {
+    "C:\\Users\\Артур\\source\\repos\\lab12\\lab12_collections\\lab12_collections.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VSCodeRepos\\lab12_OOP\\lab12_collections\\lab12_collections.csproj",
+        "projectUniqueName": "C:\\Users\\Артур\\source\\repos\\lab12\\lab12_collections\\lab12_collections.csproj",
         "projectName": "lab12_collections",
-        "projectPath": "C:\\VSCodeRepos\\lab12_OOP\\lab12_collections\\lab12_collections.csproj",
+        "projectPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab12_collections\\lab12_collections.csproj",
         "packagesPath": "C:\\Users\\Артур\\.nuget\\packages\\",
-        "outputPath": "C:\\VSCodeRepos\\lab12_OOP\\lab12_collections\\obj\\",
+        "outputPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab12_collections\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Артур\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -131,11 +131,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\VSCodeRepos\\lab12_OOP\\lab10\\lab10.csproj": {
-                "projectPath": "C:\\VSCodeRepos\\lab12_OOP\\lab10\\lab10.csproj"
+              "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\lab10.csproj": {
+                "projectPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\lab10.csproj"
               },
-              "C:\\VSCodeRepos\\lab12_OOP\\lab11\\lab11.csproj": {
-                "projectPath": "C:\\VSCodeRepos\\lab12_OOP\\lab11\\lab11.csproj"
+              "C:\\Users\\Артур\\source\\repos\\lab12\\lab11\\lab11.csproj": {
+                "projectPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab11\\lab11.csproj"
               }
             }
           }

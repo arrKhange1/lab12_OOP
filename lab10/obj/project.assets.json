@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VSCodeRepos\\lab12_OOP\\lab10\\lab10.csproj",
+      "projectUniqueName": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\lab10.csproj",
       "projectName": "lab10",
-      "projectPath": "C:\\VSCodeRepos\\lab12_OOP\\lab10\\lab10.csproj",
+      "projectPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\lab10.csproj",
       "packagesPath": "C:\\Users\\Артур\\.nuget\\packages\\",
-      "outputPath": "C:\\VSCodeRepos\\lab12_OOP\\lab10\\obj\\",
+      "outputPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Артур\\AppData\\Roaming\\NuGet\\NuGet.Config",

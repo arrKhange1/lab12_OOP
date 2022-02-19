@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Артур\\source\\repos\\lab12\\lab10.UnitTests\\lab10.UnitTests.csproj": {}
+    "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab10.UnitTests\\lab10.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Артур\\source\\repos\\lab12\\lab10.UnitTests\\lab10.UnitTests.csproj": {
+    "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab10.UnitTests\\lab10.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10.UnitTests\\lab10.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab10.UnitTests\\lab10.UnitTests.csproj",
         "projectName": "lab10.UnitTests",
-        "projectPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10.UnitTests\\lab10.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\Артур\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10.UnitTests\\obj\\",
+        "projectPath": "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab10.UnitTests\\lab10.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab10.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Артур\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,9 +26,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\lab10.csproj": {
-                "projectPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\lab10.csproj"
+              "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab10\\lab10.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab10\\lab10.csproj"
               }
             }
           }
@@ -41,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -74,21 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\lab10.csproj": {
+    "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab10\\lab10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\lab10.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab10\\lab10.csproj",
         "projectName": "lab10",
-        "projectPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\lab10.csproj",
-        "packagesPath": "C:\\Users\\Артур\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Артур\\source\\repos\\lab12\\lab10\\obj\\",
+        "projectPath": "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab10\\lab10.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab10\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Артур\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,6 +102,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -111,6 +114,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -121,12 +125,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

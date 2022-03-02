@@ -65,3 +65,16 @@ C:\Users\User\source\repos\lab12_OOP\lab10\obj\Debug\netcoreapp3.1\lab10.csproj.
 C:\Users\User\source\repos\lab12_OOP\lab10\obj\Debug\netcoreapp3.1\lab10.dll
 C:\Users\User\source\repos\lab12_OOP\lab10\obj\Debug\netcoreapp3.1\lab10.pdb
 C:\Users\User\source\repos\lab12_OOP\lab10\obj\Debug\netcoreapp3.1\lab10.genruntimeconfig.cache
+C:\Users\Артур\source\repos\lab12_OOP\lab10\bin\Debug\netcoreapp3.1\lab10.exe
+C:\Users\Артур\source\repos\lab12_OOP\lab10\bin\Debug\netcoreapp3.1\lab10.deps.json
+C:\Users\Артур\source\repos\lab12_OOP\lab10\bin\Debug\netcoreapp3.1\lab10.runtimeconfig.json
+C:\Users\Артур\source\repos\lab12_OOP\lab10\bin\Debug\netcoreapp3.1\lab10.runtimeconfig.dev.json
+C:\Users\Артур\source\repos\lab12_OOP\lab10\bin\Debug\netcoreapp3.1\lab10.dll
+C:\Users\Артур\source\repos\lab12_OOP\lab10\bin\Debug\netcoreapp3.1\lab10.pdb
+C:\Users\Артур\source\repos\lab12_OOP\lab10\obj\Debug\netcoreapp3.1\lab10.csprojAssemblyReference.cache
+C:\Users\Артур\source\repos\lab12_OOP\lab10\obj\Debug\netcoreapp3.1\lab10.AssemblyInfoInputs.cache
+C:\Users\Артур\source\repos\lab12_OOP\lab10\obj\Debug\netcoreapp3.1\lab10.AssemblyInfo.cs
+C:\Users\Артур\source\repos\lab12_OOP\lab10\obj\Debug\netcoreapp3.1\lab10.csproj.CoreCompileInputs.cache
+C:\Users\Артур\source\repos\lab12_OOP\lab10\obj\Debug\netcoreapp3.1\lab10.dll
+C:\Users\Артур\source\repos\lab12_OOP\lab10\obj\Debug\netcoreapp3.1\lab10.pdb
+C:\Users\Артур\source\repos\lab12_OOP\lab10\obj\Debug\netcoreapp3.1\lab10.genruntimeconfig.cache

@@ -92,7 +92,7 @@ namespace lab12_collections
             }
             return contains;
         }
-        public void Push(T obj)
+        public virtual void Push(T obj)
         {
             QueueNode<T> newHead = head;
             if (newHead == null)
@@ -110,7 +110,7 @@ namespace lab12_collections
 
         }
 
-        public void Push(T[] arr)
+        public virtual void Push(T[] arr)
         {
             if (head == null)
             {
@@ -143,12 +143,14 @@ namespace lab12_collections
 
         }
         
-        public void Pop()
+        public virtual T Pop()
         {
-            if (head == null) return;
-            
+            if (head == null) return default(T);
+
+            T toBeReturned = head.data;
             head = head.next;
             --_count;
+            return toBeReturned;
         }
 
         public void Pop(int num)

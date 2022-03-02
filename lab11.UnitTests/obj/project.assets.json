@@ -5733,19 +5733,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Артур\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab11.UnitTests\\lab11.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\Артур\\source\\repos\\lab12_OOP\\lab11.UnitTests\\lab11.UnitTests.csproj",
       "projectName": "lab11.UnitTests",
-      "projectPath": "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab11.UnitTests\\lab11.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab11.UnitTests\\obj\\",
+      "projectPath": "C:\\Users\\Артур\\source\\repos\\lab12_OOP\\lab11.UnitTests\\lab11.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\Артур\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Артур\\source\\repos\\lab12_OOP\\lab11.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Артур\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5757,10 +5757,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab11\\lab11.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\lab12_OOP\\lab11\\lab11.csproj"
+            "C:\\Users\\Артур\\source\\repos\\lab12_OOP\\lab11\\lab11.csproj": {
+              "projectPath": "C:\\Users\\Артур\\source\\repos\\lab12_OOP\\lab11\\lab11.csproj"
             }
           }
         }
@@ -5773,7 +5772,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -5807,7 +5805,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

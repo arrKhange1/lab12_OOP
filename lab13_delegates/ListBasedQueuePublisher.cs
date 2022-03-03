@@ -9,7 +9,7 @@ using lab12_collections;
 namespace lab13_delegates
 {
 
-    class CollectionHandlerEventArgs<T> : EventArgs
+    public class CollectionHandlerEventArgs<T> : EventArgs
     { 
         public CollectionHandlerEventArgs(string name, string evName, T[] obj)
         {
@@ -21,7 +21,7 @@ namespace lab13_delegates
         public string EventName { get; set; }
         public T[] EventParticipants { get; set; }
     }
-    class ListBasedQueuePublisher<T> : ListBasedQueue<T>, ICloneable, IEnumerable<T> where T : IEquatable<T>
+    public class ListBasedQueuePublisher<T> : ListBasedQueue<T>, ICloneable, IEnumerable<T> where T : IEquatable<T>
     {
         public string Name { get; set; }
 
@@ -32,7 +32,6 @@ namespace lab13_delegates
                 OnCollectionReferenceChanged(this, new CollectionHandlerEventArgs<T>(Name, "changed", new T[] {head.data}));
 
                 QueueNode<T> headNext = head.next;
-                //T headData = head.data;
                 head = value;
                 head.next = headNext;
             }

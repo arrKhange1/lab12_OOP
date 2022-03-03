@@ -7,7 +7,7 @@ using lab12_collections;
 namespace lab13_delegates
 {
 
-    class JournalEntry<T>
+    public class JournalEntry<T>
     {
         public JournalEntry(string name, string evName, T[] obj)
         {
@@ -19,7 +19,7 @@ namespace lab13_delegates
         public string EventName { get; set; }
         public T[] EventParticipants { get; set; }
     }
-    class JournalSubscriber<T>
+    public class JournalSubscriber<T>
     {
         public List<JournalEntry<T>> Journal;
 

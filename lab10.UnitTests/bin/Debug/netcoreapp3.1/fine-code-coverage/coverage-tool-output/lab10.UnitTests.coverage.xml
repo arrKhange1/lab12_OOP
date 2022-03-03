@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.7303000000000001" branch-rate="0.3333" version="1.9" timestamp="1645243541" lines-covered="149" lines-valid="204" branches-covered="8" branches-valid="24">
+<coverage line-rate="0.7303000000000001" branch-rate="0.3333" version="1.9" timestamp="1646287557" lines-covered="149" lines-valid="204" branches-covered="8" branches-valid="24">
   <sources>
     <source>C:\Users\User\</source>
   </sources>
   <packages>
     <package name="lab10" line-rate="0.4857" branch-rate="0.3333" complexity="48">
       <classes>
-        <class name="lab10.Administration" filename="source\repos\lab12_OOP\lab10\administration.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="lab10.Administration" filename="source\repos\labsFrom12_OOP\lab10\administration.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="Print" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -18,7 +18,7 @@
             <line number="9" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lab10.Engineer" filename="source\repos\lab12_OOP\lab10\engineer.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="lab10.Engineer" filename="source\repos\labsFrom12_OOP\lab10\engineer.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="Print" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -46,7 +46,7 @@
             <line number="14" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lab10.Number" filename="source\repos\lab12_OOP\lab10\person(base).cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="lab10.Number" filename="source\repos\labsFrom12_OOP\lab10\person(base).cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -86,7 +86,7 @@
             <line number="17" hits="15" branch="False" />
           </lines>
         </class>
-        <class name="lab10.Person" filename="source\repos\lab12_OOP\lab10\person(base).cs" line-rate="0.6346" branch-rate="0.5" complexity="19">
+        <class name="lab10.Person" filename="source\repos\labsFrom12_OOP\lab10\person(base).cs" line-rate="0.6346" branch-rate="0.5" complexity="19">
           <methods>
             <method name="get_FirstName" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -284,7 +284,7 @@
             <line number="59" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="lab10.PersonComparer" filename="source\repos\lab12_OOP\lab10\PersonComparer.cs" line-rate="1" branch-rate="1" complexity="4">
+        <class name="lab10.PersonComparer" filename="source\repos\labsFrom12_OOP\lab10\PersonComparer.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name="Compare" signature="(lab10.Person,lab10.Person)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
@@ -324,7 +324,7 @@
             <line number="17" hits="3" branch="False" />
           </lines>
         </class>
-        <class name="lab10.Program" filename="source\repos\lab12_OOP\lab10\Program - Копировать.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="lab10.Program" filename="source\repos\labsFrom12_OOP\lab10\Program - Копировать.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -338,7 +338,7 @@
             <line number="156" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lab10.Worker" filename="source\repos\lab12_OOP\lab10\worker.cs" line-rate="0" branch-rate="0" complexity="18">
+        <class name="lab10.Worker" filename="source\repos\labsFrom12_OOP\lab10\worker.cs" line-rate="0" branch-rate="0" complexity="18">
           <methods>
             <method name="get_factoryName" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -478,7 +478,7 @@
             <line number="4" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lab10.UnitTests.PersonComparerTests" filename="source\repos\lab12_OOP\lab10.UnitTests\PersonComparerTests.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="lab10.UnitTests.PersonComparerTests" filename="source\repos\labsFrom12_OOP\lab10.UnitTests\PersonComparerTests.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="Compare_PersonDima_PersonAnton_Returns1" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -544,7 +544,7 @@
             <line number="46" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="lab10.UnitTests.PersonTests" filename="source\repos\lab12_OOP\lab10.UnitTests\PersonTests.cs" line-rate="1" branch-rate="1" complexity="12">
+        <class name="lab10.UnitTests.PersonTests" filename="source\repos\labsFrom12_OOP\lab10.UnitTests\PersonTests.cs" line-rate="1" branch-rate="1" complexity="12">
           <methods>
             <method name="Number_ConstructorWithoutParams" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>

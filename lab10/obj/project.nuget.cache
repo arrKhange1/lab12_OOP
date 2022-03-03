@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6VjfZWxkVq/++VX1lJWJIQ9b/fGr0klruh1iMXlsSVVnMU925TF+hOvK+oPAZUF/lh9qlh0eSJ212cLNtpEeNg==",
+  "dgSpecHash": "Q2P5gWfR47djjB/jdmN3NE2xQXZSI+4QT/Td5LbUaDKm/bUaggZLmclEo5SjC/HMTY8Z0CjEFMzxro9+YRnzhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Артур\\source\\repos\\lab12_OOP\\lab10\\lab10.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\labsFrom12_OOP\\lab10\\lab10.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
   "logs": []
 }

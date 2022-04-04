@@ -6,9 +6,9 @@ using lab11;
 
 namespace lab14
 {
-    class SelectWorkerNames_Extension
+    public class SelectWorkerNames_Extension
     {
-        public static void Select(Factory coll)
+        public static int Select(Factory coll)
         {
             Console.Write("Задайте название цеха: ");
             string ceh = Console.ReadLine();
@@ -22,6 +22,8 @@ namespace lab14
             foreach (var elem in result)
                 Console.WriteLine(elem.Key + ", " + elem.Value);
             Console.WriteLine("\n------------\n");
+
+            return result.Count();
         }
     }
 }

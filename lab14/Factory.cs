@@ -5,7 +5,7 @@ using lab11;
 
 namespace lab14
 {
-    class Factory
+    public class Factory
     {
         public Stack<Ceh> stack { get; set; }
 

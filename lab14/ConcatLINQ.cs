@@ -6,9 +6,9 @@ using lab11;
 
 namespace lab14
 {
-    class ConcatLINQ
+    public class ConcatLINQ
     {
-        public static void Concat(Factory coll)
+        public static int Concat(Factory coll)
         {
             Console.WriteLine("Объединение профессий из первого и последнего цехов:");
            
@@ -18,6 +18,8 @@ namespace lab14
             foreach (var elem in result)
                 Console.WriteLine(elem);
             Console.WriteLine("\n------------\n");
+
+            return result.Count();
         }
     }
 }

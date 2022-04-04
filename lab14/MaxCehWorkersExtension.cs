@@ -6,14 +6,15 @@ using lab11;
 
 namespace lab14
 {
-    class MaxCehWorkersExtension
+    public class MaxCehWorkersExtension
     {
-        public static void Max(Factory coll)
+        public static int Max(Factory coll)
         {
             int result = coll.stack.Select((Ceh ceh) => ceh.CehElem.Count).Max();
 
             Console.WriteLine($"Максимальное количество работников из всех цехов: {result}\n----------\n\n");
 
+            return result;
         }
     }
 }

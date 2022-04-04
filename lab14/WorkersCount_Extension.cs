@@ -6,9 +6,9 @@ using lab11;
 
 namespace lab14
 {
-    class WorkersCount_Extension
+    public class WorkersCount_Extension
     {
-        public static void Count(Factory coll)
+        public static int Count(Factory coll)
         {
             Console.Write("Введите профессию: ");
             string prof = Console.ReadLine();
@@ -20,6 +20,8 @@ namespace lab14
 
             Console.WriteLine($"Результат WorkerCount_Extension: {result}\n");
             Console.WriteLine("-----------\n");
+
+            return result;
         }
     }
 }

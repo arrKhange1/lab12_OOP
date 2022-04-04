@@ -5,9 +5,9 @@ using System.Text;
 
 namespace lab14
 {
-    class IntersectionLINQ
+    public class IntersectionLINQ
     {
-        public static void Intersect(Factory coll)
+        public static int Intersect(Factory coll)
         {
             Console.WriteLine("Пересечение профессий из первого и последнего цехов:");
 
@@ -18,6 +18,7 @@ namespace lab14
                 Console.WriteLine(elem);
             Console.WriteLine("\n------------\n");
 
+            return result.Count();
         }
     }
 }

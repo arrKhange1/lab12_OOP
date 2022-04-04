@@ -6,7 +6,7 @@ using lab11;
 
 namespace lab14
 {
-    class Filler
+    public class Filler
     {
         public static void Fill(Factory coll, int n)
         {

@@ -5,7 +5,7 @@ using lab11;
 
 namespace lab14
 {
-    class Ceh
+    public class Ceh
     {
         public Dictionary<Person, Worker> CehElem { get; set; }
         public string Name { get; set; }

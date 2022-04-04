@@ -6,13 +6,15 @@ using lab11;
 
 namespace lab14
 {
-    class MaxCehWorkersLINQ 
+    public class MaxCehWorkersLINQ 
     {
-        public static void Max(Factory coll)
+        public static int Max(Factory coll)
         {
             int result = (from ceh in coll.stack select ceh.CehElem.Count).Max();
 
             Console.WriteLine($"Максимальное количество работников из всех цехов: {result}\n----------\n\n");
+
+            return result;
         }
     }
 }

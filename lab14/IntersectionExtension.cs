@@ -6,9 +6,9 @@ using lab11;
 
 namespace lab14
 {
-    class IntersectionExtension
+    public class IntersectionExtension
     {
-        public static void Intersect(Factory coll)
+        public static int Intersect(Factory coll)
         {
             Console.WriteLine("Пересечение профессий из первого и последнего цехов:");
 
@@ -22,6 +22,8 @@ namespace lab14
             foreach (var elem in result)
                 Console.WriteLine(elem);
             Console.WriteLine("\n------------\n");
+
+            return result.Count();
         }
     }
 }

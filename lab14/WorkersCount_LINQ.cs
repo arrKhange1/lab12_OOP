@@ -5,9 +5,9 @@ using System.Text;
 
 namespace lab14
 {
-    class WorkersCount_LINQ // кол-во рабочих заданной профессии
+    public class WorkersCount_LINQ // кол-во рабочих заданной профессии
     {
-        public static void Count(Factory coll)
+        public static int Count(Factory coll)
         {
             Console.Write("Введите профессию: ");
             string prof = Console.ReadLine();
@@ -22,6 +22,8 @@ namespace lab14
 
             Console.WriteLine($"Результат WorkerCount_LINQ: {result}\n");
             Console.WriteLine("-----------\n");
+
+            return result;
         }
     }
 }

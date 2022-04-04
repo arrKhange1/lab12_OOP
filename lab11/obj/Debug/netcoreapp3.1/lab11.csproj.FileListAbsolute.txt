@@ -105,3 +105,16 @@ C:\Users\User\source\repos\labsFrom12_OOP\lab11\obj\Debug\netcoreapp3.1\lab11.cs
 C:\Users\User\source\repos\labsFrom12_OOP\lab11\obj\Debug\netcoreapp3.1\lab11.dll
 C:\Users\User\source\repos\labsFrom12_OOP\lab11\obj\Debug\netcoreapp3.1\lab11.pdb
 C:\Users\User\source\repos\labsFrom12_OOP\lab11\obj\Debug\netcoreapp3.1\lab11.genruntimeconfig.cache
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\bin\Debug\netcoreapp3.1\lab11.exe
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\bin\Debug\netcoreapp3.1\lab11.deps.json
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\bin\Debug\netcoreapp3.1\lab11.runtimeconfig.json
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\bin\Debug\netcoreapp3.1\lab11.runtimeconfig.dev.json
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\bin\Debug\netcoreapp3.1\lab11.dll
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\bin\Debug\netcoreapp3.1\lab11.pdb
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\obj\Debug\netcoreapp3.1\lab11.csprojAssemblyReference.cache
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\obj\Debug\netcoreapp3.1\lab11.AssemblyInfoInputs.cache
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\obj\Debug\netcoreapp3.1\lab11.AssemblyInfo.cs
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\obj\Debug\netcoreapp3.1\lab11.csproj.CoreCompileInputs.cache
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\obj\Debug\netcoreapp3.1\lab11.dll
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\obj\Debug\netcoreapp3.1\lab11.pdb
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab11\obj\Debug\netcoreapp3.1\lab11.genruntimeconfig.cache

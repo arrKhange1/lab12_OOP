@@ -15,8 +15,8 @@ namespace lab14
 
             Func<KeyValuePair<Person, Worker>, string> profSelector = delegate (KeyValuePair<Person, Worker> worker) { return worker.Value.positionName; };
 
-            var result = coll.stack.Select((Ceh ceh) => ceh.CehElem).First().Select(profSelector);
-            result = result.Intersect(coll.stack.Select((Ceh ceh) => ceh.CehElem).Last().Select(profSelector));
+            var result = coll.stack.Select(ceh => ceh.CehElem).First().Select(profSelector);
+            result = result.Intersect(coll.stack.Select(ceh => ceh.CehElem).Last().Select(profSelector));
 
             Console.WriteLine("Результат IntersectionExtension:\n");
             foreach (var elem in result)

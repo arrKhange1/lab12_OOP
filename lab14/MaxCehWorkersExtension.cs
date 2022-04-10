@@ -10,7 +10,7 @@ namespace lab14
     {
         public static int Max(Factory coll)
         {
-            int result = coll.stack.Select((Ceh ceh) => ceh.CehElem.Count).Max();
+            int result = coll.stack.Select(ceh => ceh.CehElem.Count).Aggregate((a,b) => Math.Max(a,b));
 
             Console.WriteLine($"Максимальное количество работников из всех цехов: {result}\n----------\n\n");
 

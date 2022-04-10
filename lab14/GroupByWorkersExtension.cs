@@ -10,7 +10,7 @@ namespace lab14
     {
         public static void GroupBy(Factory coll)
         {
-            var result = coll.stack.Select((ceh) => ceh.CehElem).Select(dict => dict.GroupBy(worker => worker.Value.positionName));
+            var result = coll.stack.Select(ceh => ceh.CehElem).Select(dict => dict.GroupBy(worker => worker.Value.positionName));
             /*
              * выбираем из стэка с классами "Цех" словари цехов
              * далее выбираем каждый словарь и для него группируем его рабочих по профессии

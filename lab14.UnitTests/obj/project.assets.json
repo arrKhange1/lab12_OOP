@@ -1635,6 +1635,16 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "lab10/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/lab10.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lab10.dll": {}
+        }
+      },
       "lab11/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1645,11 +1655,26 @@
           "bin/placeholder/lab11.dll": {}
         }
       },
+      "lab12_collections/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "lab10": "1.0.0",
+          "lab11": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/lab12_collections.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lab12_collections.dll": {}
+        }
+      },
       "lab14/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "lab11": "1.0.0"
+          "lab11": "1.0.0",
+          "lab12_collections": "1.0.0"
         },
         "compile": {
           "bin/placeholder/lab14.dll": {}
@@ -5729,10 +5754,20 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "lab10/1.0.0": {
+      "type": "project",
+      "path": "../lab10/lab10.csproj",
+      "msbuildProject": "../lab10/lab10.csproj"
+    },
     "lab11/1.0.0": {
       "type": "project",
       "path": "../lab11/lab11.csproj",
       "msbuildProject": "../lab11/lab11.csproj"
+    },
+    "lab12_collections/1.0.0": {
+      "type": "project",
+      "path": "../lab12_collections/lab12_collections.csproj",
+      "msbuildProject": "../lab12_collections/lab12_collections.csproj"
     },
     "lab14/1.0.0": {
       "type": "project",

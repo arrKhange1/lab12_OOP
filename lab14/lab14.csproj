@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\lab11\lab11.csproj" />
+    <ProjectReference Include="..\lab12_collections\lab12_collections.csproj" />
   </ItemGroup>
 
 </Project>

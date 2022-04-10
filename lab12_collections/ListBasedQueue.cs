@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections;
 using System.Text;
+using lab11;
 
 namespace lab12_collections
 {
@@ -30,6 +31,40 @@ namespace lab12_collections
         {
             head = ((ListBasedQueue<T>)collToCopy.Clone()).head;
             _count = collToCopy._count;
+        }
+
+        public ListBasedQueue<T> Select(Func<T, bool> func)
+        {
+            ListBasedQueue<T> people = new ListBasedQueue<T>();
+
+            var headIt = head;
+            while(headIt != null)
+            {
+                if (func(headIt.data)) people.Push(headIt.data);
+                headIt = headIt.next;
+            }
+
+            return people;
+        }
+
+        public int GetCount()
+        {
+            return Count;
+        }
+
+        public T Aggregate(Func<T, T, T> func)
+        {
+            if (Count == 0) throw new Exception("No Elem");
+
+            T result = head.data;
+            var headIt = head.next;
+            while(headIt != null)
+            {
+                result = func(result, headIt.data);
+                headIt = headIt.next;
+            }
+
+            return result;
         }
 
         public virtual object Clone()

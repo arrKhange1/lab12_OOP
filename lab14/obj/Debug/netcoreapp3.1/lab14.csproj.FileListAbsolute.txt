@@ -15,3 +15,9 @@ C:\Users\Артур\source\repos\labsFrom12_OOP\lab14\obj\Debug\netcoreapp3.1\la
 C:\Users\Артур\source\repos\labsFrom12_OOP\lab14\obj\Debug\netcoreapp3.1\lab14.dll
 C:\Users\Артур\source\repos\labsFrom12_OOP\lab14\obj\Debug\netcoreapp3.1\lab14.pdb
 C:\Users\Артур\source\repos\labsFrom12_OOP\lab14\obj\Debug\netcoreapp3.1\lab14.genruntimeconfig.cache
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab14\bin\Debug\netcoreapp3.1\lab10.exe
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab14\bin\Debug\netcoreapp3.1\lab12_collections.exe
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab14\bin\Debug\netcoreapp3.1\lab10.dll
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab14\bin\Debug\netcoreapp3.1\lab12_collections.dll
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab14\bin\Debug\netcoreapp3.1\lab12_collections.pdb
+C:\Users\Артур\source\repos\labsFrom12_OOP\lab14\bin\Debug\netcoreapp3.1\lab10.pdb

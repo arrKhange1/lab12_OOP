@@ -8,6 +8,10 @@ namespace lab14
     {
         static void Main(string[] args)
         {
+            SelectLab12Collection.Select();
+            CountLab12Collection.Count();
+            AggregateLab12Collection.Aggregate();
+
             Factory collection = new Factory();
             
             Filler.Fill(collection, 5);
@@ -28,6 +32,10 @@ namespace lab14
 
             MaxCehWorkersLINQ.Max(collection);
             MaxCehWorkersExtension.Max(collection);
+
+            GroupByWorkersLINQ.GroupBy(collection);
+            GroupByWorkersExtension.GroupBy(collection);
+
         }
     }
 }

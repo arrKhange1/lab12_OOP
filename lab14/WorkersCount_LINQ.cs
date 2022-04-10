@@ -13,6 +13,7 @@ namespace lab14
             string prof = Console.ReadLine();
 
             int result = (from dict in (from ceh in coll.stack select ceh.CehElem) select (from worker in dict where worker.Value.positionName == prof select worker).Count()).Sum();
+
             
             /*
              * сначала получаем из коллекции цехов коллекцию словарей этих цехов

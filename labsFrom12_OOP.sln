@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab12.UnitTests", "lab12.Un
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab13_delegates", "lab13_delegates\lab13_delegates.csproj", "{0F1E74B6-629B-413A-BDB8-1D5844836CC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab13.UnitTests", "lab13.UnitTests\lab13.UnitTests.csproj", "{8153F2BD-9DF1-40B2-B3B3-6033F3DC8783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab13.UnitTests", "lab13.UnitTests\lab13.UnitTests.csproj", "{8153F2BD-9DF1-40B2-B3B3-6033F3DC8783}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab14", "lab14\lab14.csproj", "{603400B3-325E-4F8E-B862-FC135E4F5152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab14.UnitTests", "lab14.UnitTests\lab14.UnitTests.csproj", "{592361E4-523E-4851-9AEC-3E670F0356F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{8153F2BD-9DF1-40B2-B3B3-6033F3DC8783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8153F2BD-9DF1-40B2-B3B3-6033F3DC8783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8153F2BD-9DF1-40B2-B3B3-6033F3DC8783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603400B3-325E-4F8E-B862-FC135E4F5152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603400B3-325E-4F8E-B862-FC135E4F5152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603400B3-325E-4F8E-B862-FC135E4F5152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603400B3-325E-4F8E-B862-FC135E4F5152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{592361E4-523E-4851-9AEC-3E670F0356F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592361E4-523E-4851-9AEC-3E670F0356F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592361E4-523E-4851-9AEC-3E670F0356F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592361E4-523E-4851-9AEC-3E670F0356F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

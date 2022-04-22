@@ -23,6 +23,12 @@ namespace lab11
             }
         }
 
+        public override string ToString()
+        {
+            return $"{FirstName}, {factoryName}, {positionName}" ;
+        }
+
+
         public bool Equals(Worker obj)
         {
             if (obj == null) return false;

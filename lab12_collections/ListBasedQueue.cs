@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections;
 using System.Text;
+using lab11;
 
 namespace lab12_collections
 {
@@ -31,6 +32,11 @@ namespace lab12_collections
             head = ((ListBasedQueue<T>)collToCopy.Clone()).head;
             _count = collToCopy._count;
         }
+
+        
+
+
+        
 
         public virtual object Clone()
         {
